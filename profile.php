@@ -69,7 +69,7 @@ include './header.php';
     </section>
     <div class="flex items-center justify-center mt-5">
         <div class="border-2 rounded-full py-1 px-1 flex gap-1">
-            <a href="#" class="p-2 px-10 rounded-full font-bold <?= ($favoritePage) ? 'text-zinc-500 hover:bg-zinc-200 transition-all' : 'bg-cyan-200 text-cyan-500' ?> <?= ($not_my_account) ? ' px-20' : null ?>">Postingan</a>
+            <a href="<?= ($not_my_account) ? '#' : './profile.php' ?>" class="p-2 px-10 rounded-full font-bold <?= ($favoritePage) ? 'text-zinc-500 hover:bg-zinc-200 transition-all' : 'bg-cyan-200 text-cyan-500' ?> <?= ($not_my_account) ? ' px-20' : null ?>">Postingan</a>
             <a href="?favorite=true" class="p-2 px-10 rounded-full font-bold <?= ($favoritePage) ? 'bg-cyan-200 text-cyan-500' : 'text-zinc-500 hover:bg-zinc-200 transition-all' ?> <?= ($not_my_account) ? 'hidden' : null ?>">Favorite</a>
         </div>
     </div>
