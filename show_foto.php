@@ -74,8 +74,8 @@ $title = 'Foto | Galeraz';
 include './header.php';
 
 ?>
-    <main class="mt-5 mb-10">
-        <section class="px-96 mx-10">
+    <main class="mt-5 mb-10 flex justify-center">
+        <section class="max-w-[1200px] mx-10">
             <div class="flex justify-between items-center mb-5">
                 <div>
                     <h1 class="text-2xl font-bold mb-2"><?= $foto['judulFoto'] ?></h1>

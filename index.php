@@ -19,7 +19,7 @@ include './header.php';
 ?>
     <main class="mt-5">
         <section class="text-center flex flex-col items-center justify-center gap-2">
-            <h1 class="font-bold text-4xl relative">GALERAZ</h1>
+            <h1 class="font-bold text-4xl relative text-shadow-style">GALERAZ</h1>
             <h1 class="text-zinc-500">Beranda</h1>
         </section>
         <section class="m-5 columns-4 gap-10">

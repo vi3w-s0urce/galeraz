@@ -20,6 +20,10 @@
     transition-duration: 500ms !important;
 }
 
+.text-shadow-style {
+    text-shadow: 2px 4px #29d1eb;
+}
+
 /* @font-face {
     font-family: Poppins;
     src: url(../font/Poppins-Light.ttf);

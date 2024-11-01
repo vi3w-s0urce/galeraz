@@ -37,9 +37,9 @@ $title = 'Edit Foto | Galeraz';
 include './header.php';
 ?>
 
-    <main class="m-5">
-        <div class="shadow-xl bg-white rounded-xl p-5">
-            <div class="text-2xl font-bold text-center mb-5">📷 Posting Foto Baru</div>
+    <main class="m-5 flex justify-center">
+        <div class="shadow-xl bg-white rounded-xl p-6 max-w-[1200px] w-full border-2">
+            <div class="text-2xl font-bold text-center mb-5">📷 Edit Postingan</div>
             <form method="POST" enctype="multipart/form-data">
                 <div class="flex w-full gap-10">
                     <div class="grow">
@@ -79,7 +79,7 @@ include './header.php';
                         </div>
                         <div class="flex mt-2 gap-1 items-center">
                             <img src="./assets/images/icon/alert_gray.svg" alt="alert-icon" class="w-6">
-                            <span class="text-zinc-500">Foto tidak dapat diubah</span>
+                            <span class="text-zinc-500">Foto tidak dapat diganti</span>
                         </div>
                     </div>
                 </div>

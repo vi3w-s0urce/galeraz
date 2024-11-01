@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/output.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title><?= $title ?></title>
 </head>
 
 <body>
-    <header class="m-5 p-5 border-2 border-cyan-200 rounded-xl flex justify-between sticky top-5 z-50 backdrop-blur-lg bg-opacity-80 bg-white">
+    <header class="m-5 mb-10 p-5 border-2 border-cyan-200 rounded-xl flex justify-between sticky top-5 z-50 backdrop-blur-lg bg-opacity-80 bg-white">
         <img src="./assets/images/logo.svg" alt="logo" class="w-32">
-        <div class="flex gap-8 items-center">
+        <div class="absolute flex gap-8 items-center left-1/2 -translate-x-1/2">
             <a href="./index.php">
                 <img src="./assets/images/icon/home<?= ($_SESSION['pageRoute'] == 'home') ? '_blue' : null ?>.svg" alt="home-icon" class="<?= ($_SESSION['pageRoute'] == 'home') ? 'bg-cyan-200 p-1 rounded-xl' : 'p-1 hover:bg-zinc-200 rounded-xl transition-all' ?>">
             </a>

@@ -63,7 +63,10 @@ include './header.php';
                     }
                     ?>
                     <div>
-                        <h1 class="font-bold text-2xl mb-1"><?= $album['namaAlbum'] ?> <span class="bg-zinc-200 text-zinc-500 px-2 text-base rounded-lg"><?= $album['totalFoto'] ?></span></h1>
+                        <div class="flex items-center gap-2">
+                            <h1 class="font-bold text-2xl mb-1"><?= $album['namaAlbum'] ?></h1>
+                            <div class="w-fit h-fit bg-zinc-200 text-zinc-500 px-2 text-base rounded-lg font-bold"><?= $album['totalFoto'] ?></div>
+                        </div>
                         <p class="text-zinc-500"><?= $album['deskripsi'] ?></p>
                     </div>
                     <div class="flex gap-2">
