@@ -29,19 +29,19 @@ if (isset($_POST['registrasi'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/output.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Registrasi | GALERAZ</title>
 </head>
 
 <body>
     <div class="w-screen h-screen flex items-center justify-center">
-        <div class="bg-white shadow-xl flex items-center p-8 gap-10 border-2 border-cyan-200 rounded-3xl">
-            <div class="max-w-[680px] px-12 flex flex-col gap-10">
+        <div class="bg-white shadow-xl flex items-center p-8 gap-10 border-2 border-cyan-200 rounded-3xl max-w-[1200px] w-full mx-12">
+            <div class="w-full px-12 flex flex-col gap-10">
                 <div>
                     <h1 class="text-2xl font-bold mb-2">✍️ Daftar dan Buat Akun<br>Baru</h1>
                     <p class="text-base text-zinc-500">Silahkan registrasi untuk membuat akun barumu.</p>
                 </div>
-                <form class="w-[600px]" method="POST">
+                <form class="w-full" method="POST">
                     <div class="mb-5">
                         <label for="namaLengkap">Nama Lengkap</label>
                         <input type="text" name="namaLengkap" id="namaLengkap" placeholder="Masukkan Nama Lengkap" class="bg-zinc-200 w-full py-2 px-3 rounded-lg mt-2" required>

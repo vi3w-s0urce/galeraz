@@ -5,7 +5,9 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      sans: ['"Poppins"', 'sans-serif']
+      sans: ['"Poppins"', 'sans-serif'],
+      mondwest: ['Mondwest', 'sans-serif'],
+      hack: ['Hack', 'sans-serif'],
     }
   },
   plugins: [],
